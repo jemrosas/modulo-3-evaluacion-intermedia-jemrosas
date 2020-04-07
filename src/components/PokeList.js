@@ -4,12 +4,12 @@ import Pokemon from './Pokemon';
 
 const PokeList = (props) => {
   const dataList = props.pokemons.map((pokemon) => (
-    <li key={pokemon.id}>
+    <li className='pokeCard' key={pokemon.id}>
       <Pokemon pokemon={pokemon} />
     </li>
   ));
 
-  return <ul>{dataList}</ul>;
+  return <ul className='pokeList'>{dataList}</ul>;
 };
 
 export default PokeList;
