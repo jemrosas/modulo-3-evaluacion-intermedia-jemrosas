@@ -1,9 +1,6 @@
 import React from 'react';
-// import '../stylesheets/App.scss';
 
 const Pokemon = (props) => {
-  // console.log(props.pokemon);
-
   const data = props.pokemon.types.map((type, index) => (
     <li key={index}>
       <p>{type.toUpperCase()}</p>
