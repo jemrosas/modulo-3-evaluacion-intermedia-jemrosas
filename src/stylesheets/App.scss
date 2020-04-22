@@ -1,3 +1,15 @@
 .App {
+  padding: 20px;
   text-align: center;
+
+  &__title {
+    padding: 30px;
+    font-size: 50px;
+    color: #2a75bb;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  &__title-img {
+    width: 300px;
+  }
 }
