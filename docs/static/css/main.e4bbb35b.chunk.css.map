@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.scss","App.scss"],"names":[],"mappings":"AAAA,EACE,qBAAsB,CACtB,QAAS,CACT,SAAU,CACV,cAAe,CCJjB,KACE,iBAAkB","file":"main.e4bbb35b.chunk.css","sourcesContent":["* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-size: 16px;\n}\n",".App {\n  text-align: center;\n}\n"]}
